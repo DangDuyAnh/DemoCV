@@ -195,5 +195,5 @@ def detect(svmModelPath, inputVideoPath, outputVideoPath=None, backgroundRatio =
       output_gray.write(fgMask)
   capture.release()
 
-#detect('./SVM_model.h5','./videos/3-trim.mp4', './videos')
-#detect('./SVM_model.h5','./videos/3-trim.mp4')
+#detect('./linearSVM_model.h5','./videos/3-trim.mp4', './videos')
+#detect('./linearSVM_model.h5','./videos/3-trim.mp4')
