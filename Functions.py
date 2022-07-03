@@ -195,13 +195,5 @@ def detect(svmModelPath, inputVideoPath, outputVideoPath=None, backgroundRatio =
       output_gray.write(fgMask)
   capture.release()
 
-detect('./SVM_modelv3.h5','./videos/3-trim.mp4', './videos')
-detect('./SVM_modelv3.h5','./videos/3-trim.mp4')
-
-'''
-Kiệt ơi,
-nếu ko có tham số đường dẫn đến output thì nó sẽ chạy video luôn
-Còn ko thì nó lưu video vào cái thư mục đường dẫn đến output ý
-Tùy Kiệt nhé dùng cái nào thì dùng :))
-Các tham số mà người dùng nhập được là các tham số có giá trị mặc định nha
-'''
+#detect('./SVM_model.h5','./videos/3-trim.mp4', './videos')
+#detect('./SVM_model.h5','./videos/3-trim.mp4')
